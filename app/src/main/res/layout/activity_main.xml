@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/liMain"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <!--    Attributes-->
+
+
+<EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="@string/hint_wt"
+    android:id="@+id/edtWeight"
+    android:inputType="number"
+/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_htF"
+        android:id="@+id/edtHeightFt"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_htI"
+        android:id="@+id/edtHeightIn"
+        />
+
+
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/btnCalculate"
+    android:text="Calculate BMI"
+
+  android:layout_marginTop="11dp"
+     />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+/>
+
+
+
+
+
+
+
+
+
+
+    <!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#D3CCCC"-->
+<!--        android:id="@+id/btnChild1"-->
+<!--        android:text="Child 1"-->
+<!--        android:layout_centerInParent="true"/>-->
+<!--       />-->
+
+
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="#D3CCCC"-->
+<!--    android:text="Child 2"-->
+<!--        android:layout_below="@id/btnChild1"-->
+
+<!--android:layout_centerHorizontal="true"-->
+<!-- />-->
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/edit1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text="Name"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.497"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.298" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button1"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="72dp"-->
+<!--        android:background="#FFEB3B"-->
+<!--        android:text="Click Me"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/edit1"-->
+<!--        app:layout_constraintVertical_bias="0.0" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+
+<!--        android:onClick="SayHello"-->
+<!--        android:layout_marginBottom="204dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        tools:layout_editor_absoluteX="0dp" />-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
